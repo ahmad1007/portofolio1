@@ -1,0 +1,92 @@
+:root {
+  --warnautama: #252734;
+  --warnatambahan: #23242c;
+  --warnapemanis: #ff9100;
+}
+
+body {
+  background-color: var(--warnautama);
+  min-height: 900px;
+  font-family: "ubuntu", sans-serif;
+}
+section h1 {
+  color: antiquewhite;
+  font-size: 2, 5rem;
+}
+/*navbar */
+.nav-link.active {
+  color: var(--warnapemanis) !important;
+  font-weight: 700;
+}
+
+/* warna kalimat awal*/
+.warna-kalimat {
+  color: var(--warnapemanis);
+}
+#kalimat-awal {
+  color: #fff;
+  min-height: 100vh;
+}
+#kalimat-awal h1 {
+  font-size: 2.5rem;
+}
+#kalimat-awal h2 {
+  font-weight: 300;
+}
+#kalimat-awal p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+/* tombol */
+.lihat-lebih {
+  background-color: var(--warnapemanis);
+  text-align: center;
+  color: #fff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.lihat-lebih:hover {
+  box-shadow: 0 0 5px rgb(255, 166, 0, 8);
+}
+
+/* tombol donlot cv*/
+.donlot {
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* icon */
+.icon svg {
+  margin: 7px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+}
+.foto {
+  float: right inline-end;
+  right: 18px;
+  top: 50%;
+}
+
+/* about */
+.r {
+  width: 35%;
+  height: 5px;
+  color: var(--warnatambahan);
+  margin: 0 auto;
+  opacity: 100%;
+  justify-items: center;
+}
+
+#about {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--warnatambahan);
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
